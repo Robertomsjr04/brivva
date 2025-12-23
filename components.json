@@ -1,0 +1,11 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "name": "brivva-landing",
+  "rsc": false,
+  "style": "default",
+  "tsx": false,
+  "aliases": {
+    "components": "./src/components/ui",
+    "utils": "./src/lib/utils"
+  }
+}
