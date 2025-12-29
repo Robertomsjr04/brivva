@@ -5,7 +5,6 @@ import Services from "./components/Services.jsx";
 import Trust from "./components/Trust.jsx";
 import Team from "./components/Team.jsx";
 import Testimonials from "./components/Testimonials.jsx";
-import FAQ from "./components/FAQ.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import WhatsAppButton from "./components/WhatsAppButton.jsx";
@@ -70,13 +69,6 @@ export default function App() {
         <section id="depoimentos" aria-label="Depoimentos" className="py-16">
           <div className="container mx-auto px-4">
             <Testimonials />
-          </div>
-        </section>
-
-        {/* FAQ */}
-        <section id="faq" aria-label="Perguntas Frequentes" className="py-16">
-          <div className="container mx-auto px-4">
-            <FAQ />
           </div>
         </section>
 

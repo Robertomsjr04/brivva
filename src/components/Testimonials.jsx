@@ -1,8 +1,6 @@
 import React from "react";
-import avatar1 from "../../[CBrivva]/PHOTO-2025-12-02-18-13-50.jpg";
-import avatar2 from "../../[CBrivva]/PHOTO-2025-12-02-18-13-51.jpg";
-import avatar3 from "../../[CBrivva]/PHOTO-2025-12-02-18-13-50 2.jpg";
 import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 import { Button } from "./ui/button.jsx";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -10,17 +8,27 @@ const testimonials = [
   {
     name: "Mariana",
     text: "Equipe super atenciosa e resultado impecável! Recomendo a BRIVVA.",
-    avatar: avatar1,
+    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
     name: "Carlos",
     text: "Ortodontia com acompanhamento excelente. Muito satisfeito com o atendimento.",
-    avatar: avatar2,
+    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     name: "Luciana",
     text: "Clareamento deixou meu sorriso incrível. Profissionais de confiança!",
-    avatar: avatar3,
+    avatar: "https://randomuser.me/api/portraits/women/68.jpg",
+  },
+  {
+    name: "Ricardo",
+    text: "Fiz meus implantes aqui e o processo foi muito tranquilo. Recomendo!",
+    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
+  },
+  {
+    name: "Fernanda",
+    text: "Atendimento maravilhoso desde a recepção até o consultório.",
+    avatar: "https://randomuser.me/api/portraits/women/90.jpg",
   },
 ];
 
@@ -45,11 +53,14 @@ function Stars() {
 }
 
 export default function Testimonials() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({
-    loop: true,
-    align: "start",
-    dragFree: true,
-  });
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    {
+      loop: true,
+      align: "start",
+      dragFree: true,
+    },
+    [Autoplay({ delay: 4000, stopOnInteraction: false })]
+  );
   return (
     <div>
       <h2 className="text-3xl font-bold text-brivvaPrimary">Depoimentos</h2>

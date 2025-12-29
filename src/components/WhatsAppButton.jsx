@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "5547000000000"; // Substituir pelo número real quando disponível
+  const phoneNumber = "5547997738446";
   const message = "Olá! Gostaria de agendar uma avaliação.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
