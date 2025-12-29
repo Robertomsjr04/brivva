@@ -12,7 +12,7 @@ export default function Footer() {
             </p>
             <div className="mt-4 text-sm opacity-90">
               <p>Rua 272, nº 275, Sala 8</p>
-              <p>Segunda Avenida, Itapema - SC</p>
+              <p>Meia Praia, Itapema - SC</p>
             </div>
           </div>
           <div>

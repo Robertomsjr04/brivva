@@ -1,16 +1,19 @@
+import React from "react";
 import { cn } from "../../lib/utils";
 
-export function Card({ className, ...props }) {
-  return (
-    <div
-      className={cn(
-        "bg-brivvaSurface rounded-xl shadow-md p-6 border border-gray-100 transition-all duration-300 hover:shadow-xl hover:-translate-y-1",
-        className
-      )}
-      {...props}
-    />
-  );
-}
+const Card = React.forwardRef(({ className, ...props }, ref) => (
+  <div
+    ref={ref}
+    className={cn(
+      "bg-brivvaSurface rounded-xl shadow-md p-6 border border-gray-100 transition-all duration-300 hover:shadow-xl hover:-translate-y-1",
+      className
+    )}
+    {...props}
+  />
+));
+Card.displayName = "Card";
+
+export { Card };
 
 export function CardTitle({ className, ...props }) {
   return (

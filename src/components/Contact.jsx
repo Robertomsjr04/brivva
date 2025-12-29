@@ -67,9 +67,22 @@ export default function Contact() {
           className="w-full rounded-lg shadow-sm object-cover"
         />
         <div className="card">
+          <div className="w-full h-64 rounded-lg overflow-hidden shadow-sm mb-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3552.484279766938!2d-48.61868462447998!3d-27.136894476513816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b1e0c2f0f8a9%3A0x6b8f8f8f8f8f8f8f!2sR.%20272%2C%20275%20-%20Meia%20Praia%2C%20Itapema%20-%20SC%2C%2088220-000!5e0!3m2!1spt-BR!2sbr!4v1709666666666!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Localização da Clínica Brivva"
+            ></iframe>
+          </div>
           <div className="text-sm text-brivvaText">
             <div>
-              <strong>Endereço:</strong> Rua 272, nº 275, Sala 8 - Segunda Avenida, Itapema - SC
+              <strong>Endereço:</strong> Rua 272, nº 275, Sala 8 - Meia Praia,
+              Itapema - SC
             </div>
             <div>
               <strong>Telefone:</strong> (xx) xxxxx-xxxx

@@ -33,8 +33,7 @@ export default function Hero() {
               ✨ Odontologia de Excelência
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brivvaPrimary leading-tight">
-              Seu Sorriso Merece o{" "}
-              <span className="text-gradient">Melhor Cuidado</span>
+              Clínica Odontológica Especializada em <span className="text-gradient">Itapema</span>
             </h1>
             <p className="mt-6 text-lg md:text-xl text-brivvaText/80 leading-relaxed max-w-lg">
               Tecnologia avançada, conforto e um atendimento humanizado para
@@ -76,6 +75,8 @@ export default function Hero() {
               <img
                 src={heroImg}
                 alt="Ambiente clínico acolhedor da BRIVVA"
+                width="600"
+                height="400"
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
               />
             </div>

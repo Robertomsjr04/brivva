@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials.jsx";
 import FAQ from "./components/FAQ.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import WhatsAppButton from "./components/WhatsAppButton.jsx";
 
 export default function App() {
   // Aviso de configuração do cline via variável de ambiente (não expõe chave)
@@ -91,6 +92,7 @@ export default function App() {
         </section>
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }

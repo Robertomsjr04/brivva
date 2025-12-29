@@ -46,6 +46,8 @@ export default function Team() {
                   <img
                     src={d.photo}
                     alt={`Foto de ${d.name}`}
+                    width="128"
+                    height="128"
                     className="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
                     loading="lazy"
                   />
