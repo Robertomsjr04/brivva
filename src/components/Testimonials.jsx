@@ -8,27 +8,22 @@ const testimonials = [
   {
     name: "Mariana",
     text: "Equipe super atenciosa e resultado impecável! Recomendo a BRIVVA.",
-    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
     name: "Carlos",
     text: "Ortodontia com acompanhamento excelente. Muito satisfeito com o atendimento.",
-    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     name: "Luciana",
     text: "Clareamento deixou meu sorriso incrível. Profissionais de confiança!",
-    avatar: "https://randomuser.me/api/portraits/women/68.jpg",
   },
   {
     name: "Ricardo",
     text: "Fiz meus implantes aqui e o processo foi muito tranquilo. Recomendo!",
-    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
     name: "Fernanda",
     text: "Atendimento maravilhoso desde a recepção até o consultório.",
-    avatar: "https://randomuser.me/api/portraits/women/90.jpg",
   },
 ];
 
@@ -91,21 +86,14 @@ export default function Testimonials() {
                 key={t.name}
                 className="min-w-0 flex-[0_0_100%] md:flex-[0_0_calc(33.333%-16px)]"
               >
-                <div className="card">
-                  <div className="flex items-center gap-3">
-                    <img
-                      src={t.avatar}
-                      alt={`Foto de ${t.name}`}
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                    <div>
-                      <div className="font-semibold text-brivvaPrimary">
-                        {t.name}
-                      </div>
-                      <Stars />
+                <div className="card h-full p-6 flex flex-col">
+                  <div className="mb-4">
+                    <div className="font-bold text-lg text-brivvaPrimary mb-1">
+                      {t.name}
                     </div>
+                    <Stars />
                   </div>
-                  <p className="mt-3 text-sm text-brivvaText">{t.text}</p>
+                  <p className="text-brivvaText leading-relaxed">"{t.text}"</p>
                 </div>
               </div>
             ))}
