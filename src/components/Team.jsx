@@ -2,10 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Card, CardTitle, CardDescription } from "./ui/card.jsx";
 import { Button } from "./ui/button.jsx";
-import d1 from "../../[CBrivva]/PHOTO-2025-12-02-18-13-50.jpg";
-import d2 from "../../[CBrivva]/PHOTO-2025-12-02-18-13-51.jpg";
-import dSilvia from "../../[CBrivva]/silvia.jpg";
-import dCassio from "../../[CBrivva]/PHOTO-2025-12-02-18-14-24.jpg";
+import d1 from "../assets/images/dr-wagner.jpg";
+import d2 from "../assets/images/dra-vitoria.jpg";
+import dSilvia from "../assets/images/dra-silvia.jpg";
+import dCassio from "../assets/images/dr-cassio-temp.jpg";
 
 const doctors = [
   {

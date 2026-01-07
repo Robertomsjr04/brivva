@@ -1,5 +1,5 @@
 import React from "react";
-import clinicPhoto from "../../[CBrivva]/IMG_5186.png";
+import clinicPhoto from "../assets/images/clinic.png";
 import { Input } from "./ui/input.jsx";
 import { Textarea } from "./ui/textarea.jsx";
 import { Button } from "./ui/button.jsx";

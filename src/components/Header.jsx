@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../[CBrivva]/IMG_5185.png";
+import logo from "../assets/images/logo.png";
 import { Button } from "../components/ui/button.jsx";
 import { Sheet, SheetTrigger, SheetContent } from "../components/ui/sheet.jsx";
 import { Menu } from "lucide-react";

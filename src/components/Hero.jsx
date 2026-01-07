@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../../[CBrivva]/PHOTO-2025-12-02-18-14-24.jpg";
+import heroImg from "../assets/images/dr-cassio-temp.jpg";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Hero() {
@@ -33,7 +33,8 @@ export default function Hero() {
               ✨ Odontologia de Excelência
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brivvaPrimary leading-tight">
-              Clínica Odontológica Especializada em <span className="text-gradient">Itapema</span>
+              Clínica Odontológica Especializada em{" "}
+              <span className="text-gradient">Itapema</span>
             </h1>
             <p className="mt-6 text-lg md:text-xl text-brivvaText/80 leading-relaxed max-w-lg">
               Tecnologia avançada, conforto e um atendimento humanizado para
