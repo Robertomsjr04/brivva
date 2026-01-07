@@ -9,16 +9,16 @@ import dCassio from "../../[CBrivva]/PHOTO-2025-12-02-18-14-24.jpg";
 
 const doctors = [
   {
-    name: "Dr. Wagner",
-    role: "Implantes / Prótese / Lente de Porcelana",
-    photo: d1,
+    name: "Dr. Cassio",
+    role: "Responsável Técnico / Endodontista e Radiologista",
+    photo: dCassio,
   },
   { name: "Dra. Vitória", role: "Clínico Geral / Estética", photo: d2 },
   { name: "Dra. Silvia", role: "Ortodontia (Aparelho)", photo: d3 },
   {
-    name: "Dr. Cassio",
-    role: "Responsável Técnico / Endodontista e Radiologista",
-    photo: dCassio,
+    name: "Dr. Wagner",
+    role: "Implantes / Prótese / Lente de Porcelana",
+    photo: d1,
   },
 ];
 
