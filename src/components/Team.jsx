@@ -4,7 +4,7 @@ import { Card, CardTitle, CardDescription } from "./ui/card.jsx";
 import { Button } from "./ui/button.jsx";
 import d1 from "../../[CBrivva]/PHOTO-2025-12-02-18-13-50.jpg";
 import d2 from "../../[CBrivva]/PHOTO-2025-12-02-18-13-51.jpg";
-import d3 from "../../[CBrivva]/PHOTO-2025-12-02-18-13-50 2.jpg";
+import dSilvia from "../../[CBrivva]/IMG_5185.png";
 import dCassio from "../../[CBrivva]/PHOTO-2025-12-02-18-14-24.jpg";
 
 const doctors = [
@@ -14,7 +14,7 @@ const doctors = [
     photo: dCassio,
   },
   { name: "Dra. Vitória", role: "Clínico Geral / Estética", photo: d2 },
-  { name: "Dra. Silvia", role: "Ortodontia (Aparelho)", photo: d3 },
+  { name: "Dra. Silvia", role: "Ortodontia (Aparelho)", photo: dSilvia },
   {
     name: "Dr. Wagner",
     role: "Implantes / Prótese / Lente de Porcelana",
