@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../assets/images/dr-cassio-temp.jpg";
+import heroImg from "../assets/images/dr-cassio.jpg";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Hero() {

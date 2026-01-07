@@ -5,7 +5,7 @@ import { Button } from "./ui/button.jsx";
 import d1 from "../assets/images/dr-wagner.jpg";
 import d2 from "../assets/images/dra-vitoria.jpg";
 import dSilvia from "../assets/images/dra-silvia.jpg";
-import dCassio from "../assets/images/dr-cassio-temp.jpg";
+import dCassio from "../assets/images/dr-cassio.jpg";
 
 const doctors = [
   {
